@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/media/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/theme.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/web/images/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.user.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -469,11 +466,13 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1SToPZmz4ozU0zTFGg9b1yD9KtF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/web/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -483,7 +482,12 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\Magento_Theme" />
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\web\images" />
       <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme" />
       <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\media" />
     </key>
@@ -510,7 +514,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571596947184</updated>
-      <workItem from="1571597014483" duration="6614000" />
+      <workItem from="1571597014483" duration="10390000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -526,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571602995187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Magento mode set to developer, fixed new theme not compiling">
+      <created>1571608658407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571608658407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +547,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Commit&#10;Added gulp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit&#10;Added gulp" />
+    <MESSAGE value="Magento mode set to developer, fixed new theme not compiling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Magento mode set to developer, fixed new theme not compiling" />
   </component>
 </project>

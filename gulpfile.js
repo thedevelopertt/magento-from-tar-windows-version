@@ -17,7 +17,7 @@ const magentoCommand = _magentoCommand;
 //Cleans Magento Cache
 gulp.task('m-cache', async () => {
     await exec(magentoCommand('cache:flush'));
-    await exec(magentoCommand('setup:static-content:deploy -f'));
+    // await exec(magentoCommand('setup:static-content:deploy -f'));
 })
 
 gulp.task('m-setup', async () => {
