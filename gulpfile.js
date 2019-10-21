@@ -17,7 +17,10 @@ const magentoCommand = _magentoCommand;
 //Cleans Magento Cache
 gulp.task('m-cache', async () => {
     await exec(magentoCommand('cache:flush'));
-    // await exec(magentoCommand('setup:static-content:deploy -f'));
+})
+
+gulp.task('m-compile',async()=>{
+    exec(magentoCommand('setup:di:compile'))
 })
 
 gulp.task('m-setup', async () => {
@@ -28,12 +31,12 @@ gulp.task('m-static', async () => {
     exec(magentoCommand('setup:static-content:deploy -f'))
 })
 
-gulp.task('m-uri', async () => {
-    exec(magentoCommand('dev:urn-catalog:generate .idea/misc.xml'))
-})
-
 gulp.task('m-upgrade',async() => {
     exec(magentoCommand('setup:upgrade'))
+})
+
+gulp.task('m-uri', async () => {
+    exec(magentoCommand('dev:urn-catalog:generate .idea/misc.xml'))
 })
 
 //Watch Module

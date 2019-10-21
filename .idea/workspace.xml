@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/web/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/magento-from-tar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento-from-tar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/etc/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/etc/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -463,6 +466,26 @@
       <path value="$PROJECT_DIR$/vendor/magento/module-authorizenet" />
       <path value="$PROJECT_DIR$/vendor/magento/module-sales" />
       <path value="$PROJECT_DIR$/vendor/magento/module-security" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-grouped-product-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swatches-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-offline-shipping-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-msrp-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-product-links-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-theme-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-rule-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-review-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-bundle-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cms-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-downloadable-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-rule-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-customer-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-configurable-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-wishlist-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-tax-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/sample-data-media" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-widget-sample-data" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SToPZmz4ozU0zTFGg9b1yD9KtF" />
@@ -514,7 +537,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571596947184</updated>
-      <workItem from="1571597014483" duration="10390000" />
+      <workItem from="1571597014483" duration="15530000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -537,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571608658407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added base theme">
+      <created>1571612961618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571612961618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,6 +578,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Commit&#10;Added gulp" />
     <MESSAGE value="Magento mode set to developer, fixed new theme not compiling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Magento mode set to developer, fixed new theme not compiling" />
+    <MESSAGE value="Added base theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added base theme" />
   </component>
 </project>
