@@ -39,6 +39,13 @@ gulp.task('m-uri', async () => {
     exec(magentoCommand('dev:urn-catalog:generate .idea/misc.xml'))
 })
 
+gulp.task("m-cache-static",async()=>{
+    exec(magentoCommand('cache:flush'))
+    exec(magentoCommand('setup:static-content:deploy -f'))
+} )
+
+
+
 //Watch Module
 
 gulp.task('m-watch', async () => {

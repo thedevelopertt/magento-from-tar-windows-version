@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/magento-from-tar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento-from-tar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Catalog/layout/catalog_category_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Catalog/layout/catalog_product_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default_head_blocks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/etc/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/etc/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -495,7 +493,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/web/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Catalog/layout" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -505,14 +503,16 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\Magento_Theme" />
-      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\Magento_Catalog\layout" />
       <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\web\images" />
       <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme" />
       <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\layout" />
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme\Magento_Theme" />
+      <recent name="C:\Users\Greg\Development-Hard-Links-Folder\magento-from-tar\app\design\frontend\TheDeveloper\BaseTheme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -537,7 +537,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571596947184</updated>
-      <workItem from="1571597014483" duration="15530000" />
+      <workItem from="1571597014483" duration="25449000" />
+      <workItem from="1571831738608" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -567,11 +568,29 @@
       <option name="project" value="LOCAL" />
       <updated>1571612961618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added setup:di:compile to gulp">
+      <created>1571619879893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571619879893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -579,6 +598,7 @@
     <MESSAGE value="Initial Commit&#10;Added gulp" />
     <MESSAGE value="Magento mode set to developer, fixed new theme not compiling" />
     <MESSAGE value="Added base theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added base theme" />
+    <MESSAGE value="Added setup:di:compile to gulp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added setup:di:compile to gulp" />
   </component>
 </project>
