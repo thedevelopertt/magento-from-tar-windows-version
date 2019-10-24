@@ -5,8 +5,16 @@
  * See COPYING.txt for license details.
  */
 -->
-<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <update handle="default_head_blocks"/>
+<page layout="2columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_width" xsi:type="number">48</argument>
+                <argument name="logo_height" xsi:type="number">48</argument>
+                <argument name="logo_alt" xsi:type="string">The Developer Logo</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="report.bugs" remove="true"/>
     </body>
 </page>
