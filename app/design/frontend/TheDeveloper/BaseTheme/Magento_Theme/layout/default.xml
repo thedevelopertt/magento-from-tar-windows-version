@@ -16,5 +16,10 @@
         </referenceBlock>
 
         <referenceBlock name="report.bugs" remove="true"/>
+
+        <referenceContainer name="footer">
+            <block class="Magento\Framework\View\Element\Template" template="html/tothedeveloper.phtml"/>
+        </referenceContainer>
+
     </body>
 </page>

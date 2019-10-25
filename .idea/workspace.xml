@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/base.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/magento-from-tar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento-from-tar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/html/tothedeveloper.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Catalog/layout/catalog_category_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Catalog/layout/catalog_category_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -542,7 +540,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571596947184</updated>
       <workItem from="1571597014483" duration="25449000" />
-      <workItem from="1571831738608" duration="13033000" />
+      <workItem from="1571831738608" duration="17725000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -586,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571833848936</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added logo height and width">
+      <created>1571925749167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571925749167</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,6 +616,7 @@
     <MESSAGE value="Added base theme" />
     <MESSAGE value="Added setup:di:compile to gulp" />
     <MESSAGE value="Added default head blocks for The Developer Base Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added default head blocks for The Developer Base Theme" />
+    <MESSAGE value="Added logo height and width" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logo height and width" />
   </component>
 </project>
