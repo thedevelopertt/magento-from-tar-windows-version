@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/html/tothedeveloper.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/html/footer.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/html/toplinks.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/Magento_Theme/layout/default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/TheDeveloper/BaseTheme/templates/html/tothedeveloper.phtml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -540,7 +542,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571596947184</updated>
       <workItem from="1571597014483" duration="25449000" />
-      <workItem from="1571831738608" duration="17725000" />
+      <workItem from="1571831738608" duration="21117000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -591,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571925749167</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added footer 'From TheDeveloper'">
+      <created>1571971279142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571971279142</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,6 +626,7 @@
     <MESSAGE value="Added setup:di:compile to gulp" />
     <MESSAGE value="Added default head blocks for The Developer Base Theme" />
     <MESSAGE value="Added logo height and width" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logo height and width" />
+    <MESSAGE value="Added footer 'From TheDeveloper'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added footer 'From TheDeveloper'" />
   </component>
 </project>

@@ -15,10 +15,14 @@
             </arguments>
         </referenceBlock>
 
+<!--        <referenceBlock name="top.links">-->
+<!--            <block template="html/toplinks.phtml"></block>-->
+<!--        </referenceBlock>-->
+
         <referenceBlock name="report.bugs" remove="true"/>
 
         <referenceContainer name="footer">
-            <block class="Magento\Framework\View\Element\Template" template="html/tothedeveloper.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" template="html/footer.phtml"/>
         </referenceContainer>
 
     </body>
