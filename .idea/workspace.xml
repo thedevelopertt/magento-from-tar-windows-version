@@ -2,115 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d16a4462-42e5-4a41-8b42-a95e4bc7c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/.github/no-response.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Render/GridImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Render/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Render/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Render/Status.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tab/Render/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Edit/Tabs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Banner/Grid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Config/Field/Responsive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tab/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tab/Design.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tab/Renderer/Responsive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tab/Renderer/Snippet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tab/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Edit/Tabs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Adminhtml/Slider/Grid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Block/Widget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/CHANGELOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/Delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/InlineEdit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/MassDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/MassStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/NewAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Banner/Save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/Banners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/BannersGrid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/Delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/InlineEdit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/MassDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/MassStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/NewAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Controller/Adminhtml/Slider/Save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Helper/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Helper/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Effect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Location.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Sliders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Config/Source/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/ResourceModel/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/ResourceModel/Banner/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/ResourceModel/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/ResourceModel/Slider/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Model/Slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Observer/AddBlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Setup/InstallSchema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/USER-GUIDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/BannerActions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/Banners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/CustomerGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/SliderActions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/SliderLocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/Store.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/Ui/Component/Listing/Column/Thumbnail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/UserGuide.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/acl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/adminhtml/menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/adminhtml/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/adminhtml/system.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/di.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/frontend/events.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/frontend/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/etc/widget.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/i18n/en_US.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_banner_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_banner_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_slider_banners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_slider_bannersgrid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_slider_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/layout/mpbannerslider_slider_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/templates/widget/form.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/ui_component/mpbannerslider_banner_listing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/ui_component/mpbannerslider_slider_listing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/css/source/_module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/images/demo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/images/demo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/images/demo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/images/demo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/images/demo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/adminhtml/web/js/view/bannerslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/frontend/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/frontend/templates/bannerslider.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/frontend/web/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Mageplaza/BannerSlider/view/frontend/web/css/bannerslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/TheDeveloper/Banner/Setup/InstallSchema.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/TheDeveloper/Banner/Setup/InstallSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/TheDeveloper/Banner/Setup/InstallSchema.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -649,7 +542,7 @@
       <workItem from="1571597014483" duration="25449000" />
       <workItem from="1571831738608" duration="30309000" />
       <workItem from="1572273278664" duration="3266000" />
-      <workItem from="1572352484017" duration="5079000" />
+      <workItem from="1572352484017" duration="9445000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -714,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572008175798</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Banner Slider Setup Directory">
+      <created>1572396344731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572396344731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,6 +644,7 @@
     <MESSAGE value="Added logo height and width" />
     <MESSAGE value="Added footer 'From TheDeveloper'" />
     <MESSAGE value="Added header top.links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added header top.links" />
+    <MESSAGE value="Adding Banner Slider Setup Directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Banner Slider Setup Directory" />
   </component>
 </project>
