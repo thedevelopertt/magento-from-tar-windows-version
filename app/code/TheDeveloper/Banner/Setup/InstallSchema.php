@@ -213,6 +213,90 @@ class InstallSchema implements InstallSchemaInterface{
             }
 
 
+            if(!$installer->tableExists('mageplaza_bannerslider_banner_slider')){
+                $table = $installer->getConnection()->newTable(
+                    $installer->getTable('mageplaza_bannerslider_banner_slider'))
+                    ->addColumn('slider_id',Table::TYPE_INTEGER,null,[
+                        'unsigned' => true,
+                        'nullable' => false,
+                        'primary' => true
+                    ],'Slider ID')
+                    ->addColumn('banner_id',Table::TYPE_INTEGER,null,[
+                        'unsigned' => true,
+                        'nullable' => false,
+                        'primary' => true
+                    ],'Banner ID')
+                    ->addColumn('position',Table::TYPE_INTEGER,null,[
+                        'nullable' => false,
+                        'default' => '0'
+                    ])
+                    ->addIndex($installer->getIdxName('mageplaza_bannerslider_banner_slider',['slider_id'],['slider_id']))
+                    ->addIndex($installer->getIdxName('mageplaza_bannerslider_banner_slider',['banner_id'],['banner_id']))
+                    ->addForeignKey($installer->getFkName(
+                        'mageplaza_bannerslider_slider',
+                        'slider_id',
+                        'mageplaza_bannerslider_slider',
+                        'slider_id'),
+                            'slider_id',
+                        $installer->getTable('mageplaza_bannerslider_slider'),
+                        'slider_id',
+                        Table::ACTION_CASCADE
+                        )->addForeignKey(
+                            $installer->getFkName(
+                                'mageplaza_bannerslider_banner_slider',
+                                'banner_id',
+                                'mageplaza_bannerslider_banner',
+                                'banner_id'),
+                        'banner_id',
+                        $installer->getTable('mageplaza_bannerslider_banner'),
+                        'banner_id',
+                        Table::ACTION_CASCADE
+                    )
+                    ->addIndex(
+                        $installer->getIdxName('mageplaza_bannerslider_banner_slider',
+                            [
+                                'slider_id',
+                                'banner_id'
+                            ],
+                            AdapterInterface::INDEX_TYPE_UNIQUE
+                            ),
+                        [
+                            'slider_id',
+                            'banner_id'
+                        ],
+                        [
+                            'type' => AdapterInterface::INDEX_TYPE_UNIQUE
+                        ]
+                    )
+                    ->setComment('Slider To Banner Link Table');
+                $installer->getConnection()->createTable($table);
+                $this->copyDemoImage();
+                $installer->endSetup();
+
+            }
+
+
+        }
+    }
+
+    private function copyDemoImage(){
+        try{
+            $mediaDirectory = $this->filesystem->getDirectoryRead(DirectoryList::MEDIA);
+            $url = 'mageplaza/bannerslider/banner/demo';
+            $mediaDirectory->create($url);
+
+            $demos = $this->template->toOptionArray();
+
+            foreach($demos as $demo){
+                $targetPath = $mediaDirectory->getAbsolutePath($url.$demo['value']);
+                $DS = DIRECTORY_SEPARATOR;
+                $oriPath = dirname(__DIR__).$DS.'view'.$DS.'adminhtml'.$DS.'web'.$DS.'images'.$DS.$demo['value'];
+
+                $mediaDirectory->getDriver()->copy($oriPath,$targetPath);
+            }
+
+        } catch(Exception $e){
+            $this->logger->critical($e->getMessage());
         }
     }
 }

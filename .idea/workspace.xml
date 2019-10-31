@@ -542,7 +542,7 @@
       <workItem from="1571597014483" duration="25449000" />
       <workItem from="1571831738608" duration="30309000" />
       <workItem from="1572273278664" duration="3266000" />
-      <workItem from="1572352484017" duration="9445000" />
+      <workItem from="1572352484017" duration="13966000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Added gulp">
       <created>1571601902114</created>
@@ -614,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572396344731</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Mageplaza Slider Table">
+      <created>1572446234661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572446234661</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,6 +652,7 @@
     <MESSAGE value="Added footer 'From TheDeveloper'" />
     <MESSAGE value="Added header top.links" />
     <MESSAGE value="Adding Banner Slider Setup Directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Banner Slider Setup Directory" />
+    <MESSAGE value="Added Mageplaza Slider Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Mageplaza Slider Table" />
   </component>
 </project>
